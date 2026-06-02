@@ -1,0 +1,35 @@
+body {
+    background-color:mintcream;
+}
+
+@font-face {
+    font-family:"fontelindinha" ;
+    src: url(kinkee/KINKEE__.TTF) format("truetype");
+}
+
+@keyframes girar {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+.lol{
+    width: 35%;
+    height: 35%;
+    border:15px solid rgb(180, 0, 0);
+    animation: girar 3s linear infinite;
+}
+.dantelixo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.gael {
+    text-align: center;
+    color:crimson;
+    font-family: "fontelindinha" ;
+}
