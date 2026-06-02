@@ -21,6 +21,7 @@ body {
     height: 35%;
     border:15px solid rgb(180, 0, 0);
     animation: girar 3s linear infinite;
+    margin-top: 200px;
 }
 .dantelixo{
     display: flex;
