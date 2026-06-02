@@ -4,7 +4,7 @@ body {
 
 @font-face {
     font-family:"fontelindinha" ;
-    src: url(kinkee/KINKEE__.TTF) format("truetype");
+    src: url(KINKEE__.TTF) format("truetype");
 }
 
 @keyframes girar {
